@@ -19,7 +19,7 @@ Plugin 'fatih/vim-go'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
-" cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer --gocode-completer --tern-completer
+" cd ~/.vim/bundle/YouCompleteMe && ./install.py --help && ./install.py --clang-completer --gocode-completer --tern-completer
 Plugin 'Valloric/YouCompleteMe'
 
 " All of your Plugins must be added before the following line
