@@ -19,6 +19,9 @@ Plugin 'fatih/vim-go'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
+" cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer --gocode-completer --tern-completer
+Plugin 'Valloric/YouCompleteMe'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -64,4 +67,5 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 let g:ctrlp_working_path_mode = 'ra'
-
+set wildignore+=*.so,*.swp,*.zip,*.png,*.jpg,*.jpeg,*.gif
+let g:ctrlp_custom_ignore = '\v[\/]\.(git|hg|svn)$'
