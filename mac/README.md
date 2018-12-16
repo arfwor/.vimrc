@@ -14,3 +14,15 @@ psql -U myusername -d mydbname -h 127.0.0.1
 dropdb -U mydb -h 127.0.0.1 mydb
 dropuser xql
 ```
+
+# nginx install
+```
+brew install nginx
+# start
+sudo nginx
+# stop
+sudo nginx -s quit
+# config
+/usr/local/etc/nginx/nginx.conf
+/usr/local/var/www
+```
