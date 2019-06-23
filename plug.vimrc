@@ -33,6 +33,9 @@ set ignorecase smartcase
 set hlsearch
 " 不要换行
 set nowrap
+" 高亮当前行
+"set cursorline
+"highlight CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
 
 " 在 vim 启动的时候默认开启 NERDTree
 " autocmd VimEnter * NERDTree

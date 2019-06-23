@@ -6,10 +6,11 @@
 # postgresql install
 ```
 brew install postgresql
+# initdb /usr/local/var/postgres -E utf8
 pg_ctl -D /usr/local/var/postgres start
 createuser myusername -P
 createdb mydbname -O myusername -E UTF8 -e
-psql -U myusername -d mydbname -h 127.0.0.1
+psql -h 127.0.0.1 -U myusername -d mydbname
 => create schema myschema
 dropdb -U mydb -h 127.0.0.1 mydb
 dropuser xql
