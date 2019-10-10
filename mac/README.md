@@ -27,3 +27,8 @@ sudo nginx -s quit
 /usr/local/etc/nginx/nginx.conf
 /usr/local/var/www
 ```
+
+# Command Line Tools (包含 git)
+```
+xcode-select --install
+```
