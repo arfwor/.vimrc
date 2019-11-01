@@ -16,8 +16,9 @@ createuser myusername -P
 createdb mydbname -O myusername -E UTF8 -e
 psql -h 127.0.0.1 -U myusername -d mydbname
 => create schema myschema
+=> drop schema myschema cascade
 dropdb -U mydb -h 127.0.0.1 mydb
-dropuser xql
+dropuser myusername
 ```
 
 # nginx install
