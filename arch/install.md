@@ -164,6 +164,14 @@ gnome-tweaks -> Appearance -> Applications (Arc-Dark) & Icons (Papirus)
 # systemctl enable NetworkManager
 ```
 
+# 开发环境
+```
+pacman -S jdk11-openjdk
+pacman -S gradle
+pacman -S maven
+pacman -S nodejs
+```
+
 # pacman
 ```
 # 列出所有本地软件包
