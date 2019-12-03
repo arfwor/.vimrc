@@ -70,7 +70,8 @@ brew install go
 
 # install open jdk
 ```
-brew cask install java
+#brew cask install java
+brew install openjdk@11
 ```
 
 # install gradle
