@@ -169,7 +169,7 @@ gnome-tweaks -> Appearance -> Applications (Arc-Dark) & Icons (Papirus)
 pacman -S jdk11-openjdk
 pacman -S gradle
 pacman -S maven
-pacman -S nodejs
+pacman -S nodejs npm
 ```
 
 # pacman
@@ -185,4 +185,7 @@ pacman -S nodejs
 
 # 列出孤立的包 (可以删除)
 # pacman -Qqdt
+
+# 同步源并更新系统 (小心升级失败)
+# pacman -Syu
 ```
