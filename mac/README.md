@@ -44,6 +44,8 @@ psql -h 127.0.0.1 -U myusername -d mydbname
 => drop schema myschema cascade
 dropdb -U mydb -h 127.0.0.1 mydb
 dropuser myusername
+# 升级数据库
+brew postgresql-upgrade-database
 ```
 
 # install nginx
